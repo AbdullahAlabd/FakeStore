@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStore.API", "FakeStore.API\FakeStore.API.csproj", "{424ED6A8-5D18-4B0C-A819-AEC444FCE8BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStore.Core", "FakeStore.Core\FakeStore.Core.csproj", "{3CADB669-FB91-4615-81E4-14D36BED3549}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStore.Infrastructure", "FakeStore.Infrastructure\FakeStore.Infrastructure.csproj", "{0DF0887C-D7BC-458B-861C-6A65A9B46248}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{424ED6A8-5D18-4B0C-A819-AEC444FCE8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{424ED6A8-5D18-4B0C-A819-AEC444FCE8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{424ED6A8-5D18-4B0C-A819-AEC444FCE8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CADB669-FB91-4615-81E4-14D36BED3549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CADB669-FB91-4615-81E4-14D36BED3549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CADB669-FB91-4615-81E4-14D36BED3549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CADB669-FB91-4615-81E4-14D36BED3549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF0887C-D7BC-458B-861C-6A65A9B46248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF0887C-D7BC-458B-861C-6A65A9B46248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF0887C-D7BC-458B-861C-6A65A9B46248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF0887C-D7BC-458B-861C-6A65A9B46248}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
