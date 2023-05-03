@@ -18,5 +18,18 @@ namespace FakeStore.DataAccess
         public DbSet<User> Users { get; set; }
         public DbSet<Item> Items { get; set; }
         public DbSet<Product> Products { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            #region Global Filters For Soft Deletion
+            modelBuilder.Entity<Cart>().HasQueryFilter(q => !q.IsDeleted);
+            modelBuilder.Entity<Item>().HasQueryFilter(q => !q.IsDeleted);
+            modelBuilder.Entity<Product>().HasQueryFilter(q => !q.IsDeleted);
+            modelBuilder.Entity<User>().HasQueryFilter(q => !q.IsDeleted);
+            #endregion
+
+        }
     }
 }
