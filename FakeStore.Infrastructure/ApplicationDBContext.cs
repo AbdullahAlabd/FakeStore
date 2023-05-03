@@ -17,6 +17,6 @@ namespace FakeStore.DataAccess
         public DbSet<Cart> Carts { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Item> Items { get; set; }
-        public DbSet<Product> Produ { get; set; }
+        public DbSet<Product> Products { get; set; }
     }
 }
