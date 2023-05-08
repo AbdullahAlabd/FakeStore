@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33530.505
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStore.API", "FakeStore.API\FakeStore.API.csproj", "{424ED6A8-5D18-4B0C-A819-AEC444FCE8BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStore.API", "FakeStore.API\FakeStore.API.csproj", "{424ED6A8-5D18-4B0C-A819-AEC444FCE8BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStore.Business", "FakeStore.Core\FakeStore.Business.csproj", "{3CADB669-FB91-4615-81E4-14D36BED3549}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStore.Business", "FakeStore.Core\FakeStore.Business.csproj", "{3CADB669-FB91-4615-81E4-14D36BED3549}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeStore.DataAccess", "FakeStore.Infrastructure\FakeStore.DataAccess.csproj", "{0DF0887C-D7BC-458B-861C-6A65A9B46248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FakeStore.DataAccess", "FakeStore.Infrastructure\FakeStore.DataAccess.csproj", "{0DF0887C-D7BC-458B-861C-6A65A9B46248}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{80CEC9A0-9EE8-4E5E-B0B6-192AFFF24979}"
 EndProject
